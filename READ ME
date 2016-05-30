@@ -1,0 +1,15 @@
+Stylized Caustics Blending Example
+==================================
+
+The accompanying code contains a very basic Matlab implementation of the progressive point matching procedure from the paper:
+
+"Stylized Caustics: Progressive Rendering of Animated Caustics", Tobias Günther, Kai Rohmer, Christian Roessl, Thorsten Grosch and Holger Theisel, Computer Graphics Forum (Proc. Eurographics), 2016.
+
+
+The Matlab Scripts 'test_blending.m' and 'test_blending_progressive.m' both blend between two images. The latter uses a progressive version, which reduces noise.
+See the headers of the files for a description of the test cases.
+
+The code was tested on Matlab 2015 and requires a C++ compiler to compile the MEX files.
+
+
+If you have questions or comments, contact Tobias Günther at tobias@isg.cs.ovgu.de.
